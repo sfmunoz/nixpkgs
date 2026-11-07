@@ -2,6 +2,13 @@
 
 Opinionated [Nix](https://nix.dev/) repository.
 
+## References
+
+- [Nix](https://nix.dev/)
+- [NixOS](https://nixos.org/)
+- [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs)
+- [sfmunoz/nix-playground](https://github.com/sfmunoz/nix-playground)
+
 ## Usage
 
 A [flake](https://nix.dev/concepts/flakes). The first package, `yazi`, is a thin
@@ -30,10 +37,3 @@ pkgs/
 Each package lives in `pkgs/<name>/default.nix` and is instantiated with
 `callPackage`; the wrapped dependency is passed explicitly so the wrapper never
 shadows upstream's own `yazi-unwrapped` attribute.
-
-## References
-
-- [Nix](https://nix.dev/)
-- [NixOS](https://nixos.org/)
-- [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs)
-- [sfmunoz/nix-playground](https://github.com/sfmunoz/nix-playground)
