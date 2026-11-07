@@ -10,6 +10,32 @@ Opinionated [Nix](https://nix.dev/) repository.
 - [Nixpkgs Reference Manual](https://nixos.org/manual/nixpkgs/stable/)
 - [sfmunoz/nix-playground](https://github.com/sfmunoz/nix-playground)
 
+## Profile
+
+Install `yazi` package:
+```
+nix profile add github:sfmunoz/nixpkgs#yazi
+```
+
+Install `yazi` package (pinned):
+```
+nix profile add github:sfmunoz/nixpkgs/2d15a61#yazi
+```
+
+Alternative:
+
+```
+nix profile add 'git+https://github.com/sfmunoz/nixpkgs#yazi'
+nix profile add 'git+https://github.com/sfmunoz/nixpkgs?rev=2d15a6126db3a157255af4cd93210fa6b9d34a42#yazi'
+```
+
+From local checkout:
+
+```
+nix profile add .#yazi
+nix profile add ~/src/nixpkgs#yazi
+```
+
 ## Usage
 
 A [flake](https://nix.dev/concepts/flakes). The first package, `yazi`, is a thin
