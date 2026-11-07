@@ -7,6 +7,7 @@ Opinionated [Nix](https://nix.dev/) repository.
 - [Nix](https://nix.dev/)
 - [NixOS](https://nixos.org/)
 - [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs)
+- [Nixpkgs Reference Manual](https://nixos.org/manual/nixpkgs/stable/)
 - [sfmunoz/nix-playground](https://github.com/sfmunoz/nix-playground)
 
 ## Usage
